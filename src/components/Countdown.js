@@ -5,15 +5,16 @@ const CountdownWrapper = styled.div`
   top: calc(100vh - 200px);
   height: 100px;
   width: 100%;
-  
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   flex: wrap;
 
-  background-color: var(--green);
-  border: 1px solid #000;
+  color: var(--text);
+  background-color: var(--background);
+  border: 2px solid var(--green);
 
   line-height: 1.1;
 `
@@ -142,7 +143,7 @@ export default class Countdown extends React.Component {
             <div>Sec</div>
           </CountDownElement>
         </CountdownInnerWrapper>
-        <div>Until FMC Europe 2019</div>
+        <div>Until FMC Europe 2020</div>
       </CountdownWrapper>
     )
   }

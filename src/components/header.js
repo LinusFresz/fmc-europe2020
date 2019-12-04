@@ -13,14 +13,14 @@ const Nav = styled.nav`
 
   z-index: 999;
 
-  background-color: #F4F4F2;
+  background-color: var(--background);
 
   @media only screen and (max-width: 768px) {
-   flex-direction: column;
-   right: auto;
-   left: 0;
-   padding: 0;
-   margin-bottom: 1rem;
+    flex-direction: column;
+    right: auto;
+    left: 0;
+    padding: 0;
+    margin-bottom: 1rem;
   }
 `
 
@@ -32,7 +32,7 @@ const NavList = styled.ul`
   z-index: 999;
   top: 0;
   right: 0;
-  
+
   @media only screen and (max-width: 768px) {
     flex-wrap: wrap;
     justify-content: center;
@@ -65,16 +65,15 @@ const Icon = styled.div`
   }
 
   .title {
-      float: left;
-      text-align: left;
-      padding-left: 5px;
+    float: left;
+    text-align: left;
+    padding-left: 5px;
   }
 
   .title:hover {
     font-weight: 600;
   }
 
-  
   @media only screen and (max-width: 1024px) {
     font-size: 1.2rem;
   }
@@ -99,20 +98,21 @@ const NavItem = styled.li`
   flex-direction: column;
 
   a {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    font-weight: 500;
     letter-spacing: 2px;
     padding: 1rem;
-    color: #272727;
+    color: var(--yellow);
     padding: 10px 10px 0px;
 
     display: inline-block;
     position: relative;
     text-decoration: none;
-    cursor: pointer;   
+    cursor: pointer;
   }
 
   a:hover {
-    color: #000000;
+    color: var(--green);
     font-weight: 500;
   }
 
@@ -125,7 +125,7 @@ const NavItem = styled.li`
     bottom: 0;
     left: 0;
     width: 0%;
-    border-bottom: 8px solid #1995AD;
+    border-bottom: 8px solid var(--red);
     transition: 0.4s;
   }
   a:hover:after {
@@ -133,7 +133,7 @@ const NavItem = styled.li`
   }
 
   @media only screen and (max-width: 768px) {
-    padding: .1rem;
+    padding: 0.1rem;
     justify-content: flex-start;
     font-size: 1rem;
     font-weight: 500;
@@ -144,7 +144,7 @@ const NavItem = styled.li`
   }
 
   @media only screen and (max-width: 480px) {
-    padding: .1rem;
+    padding: 0.1rem;
     justify-content: flex-start;
     font-size: 0.7rem;
     font-weight: 500;
@@ -162,7 +162,7 @@ class Header extends Component {
         <Icon>
           <Cube />
           <Link to="/">
-            <span className="title">FMC Europe 2019</span>
+            <span className="title">FMC Europe 2020</span>
           </Link>
         </Icon>
         <NavList>
