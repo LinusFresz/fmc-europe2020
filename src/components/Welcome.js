@@ -22,8 +22,8 @@ const WelcomeWrapper = styled.div`
 
 const Headline = styled.div`
   position: relative;
-  margin:  0;
-  padding: .25em 0;
+  margin: 0;
+  padding: 0.25em 0;
 
   font-size: 2em;
   line-height: 1;
@@ -38,11 +38,11 @@ const Headline = styled.div`
     position: absolute;
     left: 50%;
     transform: translate(-50%);
-    content: "";
-    width:  50%;
-    height: .1em;
-    
-    background: #A1D6E2;
+    content: '';
+    width: 50%;
+    height: 0.1em;
+
+    background: var(--green);
   }
   &:before {
     top: 0;
@@ -65,7 +65,7 @@ export default class FAQ extends React.Component {
   render() {
     return (
       <WelcomeWrapper>
-        <Headline>Welcome to FMC Europe - 23/03/2019</Headline>
+        <Headline>Welcome to FMC Europe - 22/03/2020</Headline>
       </WelcomeWrapper>
     )
   }

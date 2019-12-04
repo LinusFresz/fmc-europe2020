@@ -11,62 +11,62 @@ import News from '../components/News'
 import Footer from '../components/Footer'
 
 const IndexPage = ({ data }) => (
-    <Layout>
-        <Welcome />
-        <OverviewMap markers={data.allLocationsJson.edges} />
-        <Countdown date="2019-03-23T11:00:00" />
-        <News newsEntries={data.allNewsJson.edges} />
-        <Schedule />
-        <About aboutParagraphs={data.allAboutJson.edges} />
-        <FAQ faqEntries={data.allFaqJson.edges} />
-    </Layout>
+  <Layout>
+    <Welcome />
+    <OverviewMap markers={data.allLocationsJson.edges} />
+    <Countdown date="2020-03-22T11:00:00" />
+    <News newsEntries={data.allNewsJson.edges} />
+    <Schedule />
+    <About aboutParagraphs={data.allAboutJson.edges} />
+    <FAQ faqEntries={data.allFaqJson.edges} />
+  </Layout>
 )
 
 export default IndexPage
 
 export const pageQuery = graphql`
-    query LocationsQuery {
-        allLocationsJson {
-            edges {
-                node {
-                    id
-                    lat
-                    lng
-                    delegate
-                    fee
-                    country
-                    city
-                    address
-                    info
-                    timezone
-                }
-            }
+  query LocationsQuery {
+    allLocationsJson {
+      edges {
+        node {
+          id
+          lat
+          lng
+          delegate
+          fee
+          country
+          city
+          address
+          info
+          timezone
         }
-        allAboutJson {
-            edges {
-                node {
-                    id
-                    paragraph
-                }
-            }
-        }
-        allFaqJson {
-            edges {
-                node {
-                    id
-                    question
-                    answer
-                }
-            }
-        }
-        allNewsJson {
-            edges {
-                node {
-                    id
-                    date
-                    news
-                }
-            }
-        }
+      }
     }
+    allAboutJson {
+      edges {
+        node {
+          id
+          paragraph
+        }
+      }
+    }
+    allFaqJson {
+      edges {
+        node {
+          id
+          question
+          answer
+        }
+      }
+    }
+    allNewsJson {
+      edges {
+        node {
+          id
+          date
+          news
+        }
+      }
+    }
+  }
 `

@@ -28,7 +28,7 @@ const PreviewElement = styled.div`
 
   padding: 1rem;
 
-  @media only screen and (max-width: 768px) {    
+  @media only screen and (max-width: 768px) {
     width: 90vw;
   }
 `
@@ -47,7 +47,7 @@ export default class CompetitionPreview extends React.Component {
       fee,
       info,
       findClosestLocation,
-      timezone
+      timezone,
     } = this.props
 
     const SelectElement = (
@@ -75,14 +75,12 @@ export default class CompetitionPreview extends React.Component {
           <div className="lineHeading">Timezone:</div>
           <span>{timezone}</span>
         </div>
-        {info &&
-        <div>
-          <div className="lineHeading">Info:</div>
-          <span>{info}</span>
-        </div>
-        }
-        
-        
+        {info && (
+          <div>
+            <div className="lineHeading">Info:</div>
+            <span>{info}</span>
+          </div>
+        )}
       </div>
     )
 
