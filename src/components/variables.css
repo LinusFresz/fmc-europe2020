@@ -1,8 +1,14 @@
-:root {    
-    --green: #1995AD;
-    --dark: #272727;
-    --grey: #BCBABE;
-    --light-red: #f56976;
-    --yellow: #FFE400;
-    --ice: #A1D6E2;
-  }
+:root {
+  --green: #1995ad;
+  --dark: #272727;
+  --grey: #bcbabe;
+  --light-red: #f56976;
+  --yellow: #ffe400;
+  --ice: #a1d6e2;
+}
+
+/* #161B40
+  #43BEE5
+  #F40058
+  #EFA500
+  #41B853 */
