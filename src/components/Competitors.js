@@ -1,5 +1,5 @@
 import React from 'react'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
 import _ from 'lodash'
 
 import styled from 'styled-components'
@@ -7,8 +7,8 @@ import { Table } from 'semantic-ui-react'
 
 const TableWrapper = styled.div`
   padding: 1em;
+  background-color: var(--background);
 `
-
 
 export default class Competitors extends React.Component {
   state = {
@@ -41,7 +41,11 @@ export default class Competitors extends React.Component {
 
     return (
       <TableWrapper>
-        <div><strong>Important:</strong> Registered competitors are not synchronized and updated immediately. Please check again later if you notice something is missing or not updated yet.</div>
+        <div>
+          <strong>Important:</strong> Registered competitors are not
+          synchronized and updated immediately. Please check again later if you
+          notice something is missing or not updated yet.
+        </div>
         <Table sortable celled fixed>
           <Table.Header>
             <Table.Row>
@@ -72,16 +76,22 @@ export default class Competitors extends React.Component {
             </Table.Row>
           </Table.Header>
           <Table.Body>
-            {
-              data.map(competitor => (
-                <Table.Row key={competitor.node.id}>
-                  <Table.Cell>{competitor.node.name}</Table.Cell>
-                  <Table.Cell>{competitor.node.comments}</Table.Cell>
-                  <Table.Cell>{competitor.node.single === 999 ? "na" : competitor.node.single }</Table.Cell>
-                  <Table.Cell>{competitor.node.average === 999 ? "na" : competitor.node.average }</Table.Cell>
-                </Table.Row>
-              ))
-            }
+            {data.map(competitor => (
+              <Table.Row key={competitor.node.id}>
+                <Table.Cell>{competitor.node.name}</Table.Cell>
+                <Table.Cell>{competitor.node.comments}</Table.Cell>
+                <Table.Cell>
+                  {competitor.node.single === 999
+                    ? 'na'
+                    : competitor.node.single}
+                </Table.Cell>
+                <Table.Cell>
+                  {competitor.node.average === 999
+                    ? 'na'
+                    : competitor.node.average}
+                </Table.Cell>
+              </Table.Row>
+            ))}
           </Table.Body>
         </Table>
       </TableWrapper>
