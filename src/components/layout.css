@@ -1,11 +1,3 @@
-/* dark: #272727
-grey: #BCBABE
-light-red #f56976
-red: #f45b69
-yellow: #FFE400
-green: var(--green)
-ice: #A1D6E2*/
-
 @import '../components/variables.css';
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Noto+Sans&display=swap');
 
@@ -87,6 +79,10 @@ p {
 }
 p {
   line-height: 1.6;
+}
+
+li {
+  color: #fff;
 }
 
 h2:after,
@@ -231,4 +227,8 @@ h2:after {
 .tooltip.fade:hover:before {
   opacity: 1;
   transform: translate3d(0, 0, 0);
+}
+
+.paragraph {
+  margin: 2em 0;
 }

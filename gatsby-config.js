@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'FMC Europe 2019',
+    title: 'FMC Europe 2020',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -44,7 +44,3 @@ module.exports = {
     //'gatsby-plugin-offline',
   ],
 }
-
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})

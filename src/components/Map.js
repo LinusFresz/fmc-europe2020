@@ -4,9 +4,8 @@ import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import styled from 'styled-components'
 import geolib from 'geolib'
 
-import CityPin from './CityPin';
+import LocationPin from './LocationPin';
 
-// import Marker from './Marker'
 import CompetitionPreview from './CompettionPreview'
 import 'mapbox-gl/dist/mapbox-gl.css';
 
@@ -23,7 +22,6 @@ const MapWrapper = styled.div`
   }
 `
 const MapElement = styled.div`
-  /* height: 60vh; */
   width: 45vw;
   overflow: hidden;
 
@@ -47,30 +45,25 @@ class OverviewMap extends Component {
     viewport: {
       longitude: 4.34878,
       latitude: 50.85045,
-      zoom: 8,
+      zoom: 5,
     },
+    mounted: false
   }
 
-
-  _onChildClick = (key, childProps) => {
-    this.setState({
-      selectedLocation: childProps,
-    })
-  }
-
-  _onChildMouseEnter = (key, childProps) => {
-    this.setState({
-      hoveredLocation: childProps,
-    })
-  }
-
-  _onGoogleApiLoaded = () => {
-    this.setState({ loading: false })
+  componentDidMount() {
+    this.setState({ mounted: true })
   }
 
   onViewportChange = viewport => {
     this.setState({ viewport })
   }
+
+  onClickLocation = marker => {
+    this.setState({ selectedLocation: marker })
+  }
+
+
+
 
   findClosestLocation() {
     if (navigator.geolocation) {
@@ -97,7 +90,6 @@ class OverviewMap extends Component {
 
         this.setState({
           viewport: { latitude: latitude, longitude: longitude, zoom: 8 },
-          zoom: 5,
           selectedLocation: markers[nearestCompetitionKey].node,
         })
       })
@@ -105,57 +97,27 @@ class OverviewMap extends Component {
   }
 
   render() {
-    const { center, loading, markers, zoom } = this.state
-    const key = `${process.env.GATSBY_API_URL}`
-    const { viewport } = this.state;
-
-    console.log(markers)
+    const { mounted, markers, viewport } = this.state
+    const mapBoxKey = process.env.MAPBOX_ACCESS_TOKEN
 
     return (
       // Important! Always set the container height explicitly
       <MapWrapper style={{ position: 'relative' }}>
         {
           <MapElement>
-            {/* <GoogleMapReact
-              bootstrapURLKeys={{
-                key: 'AIzaSyDfNHoNB3YBVAvDEUVe8sYVBkgpHVRuDBk',
-              }}
-              center={center}
-              zoom={zoom}
-              onChildClick={this._onChildClick}
-              onChildMouseEnter={this._onChildEnter}
-              onGoogleApiLoaded={console.log('loaded')}
-            >
-              {markers.map(({ node: marker }) => (
-                <Marker
-                  key={marker.id}
-                  id={marker.id}
-                  lat={marker.lat}
-                  lng={marker.lng}
-                  marker={marker}
-                  isHighlighted={
-                    marker.id === this.state.selectedLocation.id
-                      ? 'true'
-                      : 'false'
-                  }
-                  zIndex={1}
-                />
-              ))}
-            </GoogleMapReact> */}
-
             <ReactMapGL
-              mapboxApiAccessToken="pk.eyJ1IjoibGF1cmFvaHJuZG9yZiIsImEiOiJjazNyZDY3aGEwYWM0M2VwYzZibTdvNXlsIn0.s3rxWgj0xztdwyCQFVAXfA"
-              mapStyle="mapbox://styles/lauraohrndorf/ck3soa6jk0or61cqotuyp453x"
+              mapboxApiAccessToken={mapBoxKey}
+              mapStyle="mapbox://styles/lauraohrndorf/ck3vnh3al43iy1cnzxjc6vgn6"
               {...viewport}
-              onViewportChange={this.onViewportChange}
+              onViewportChange={(viewport) => {
+                if (mounted) { this.onViewportChange(viewport) }
+              }}
               width="100%"
               height="400px"
             >
               {markers.map(({ node: marker }) => (
-                <Marker latitude={parseFloat(marker.lat)} longitude={parseFloat(marker.lng)} >
-                  <CityPin onClick={() => this.setState({
-                    selectedLocation: marker,
-                  })} />
+                <Marker key={marker.id} latitude={parseFloat(marker.lat)} longitude={parseFloat(marker.lng)}>
+                  <LocationPin onClick={() => this.onClickLocation(marker)} />
                 </Marker>
               ))}
             </ReactMapGL>
