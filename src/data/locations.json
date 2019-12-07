@@ -1,5 +1,17 @@
 [
   {
+    "lat": "42.655523",
+    "lng": "23.354149",
+    "country": "Bulgaria",
+    "city": "Sofia",
+    "address": "Technical university of Sofia, Campus 3 (or 4), 1 Rosario Str.",
+    "delegate": "Borislav Marchovski",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+2",
+    "fullname": "Bulgaria - Sofia"
+  },
+  {
     "lat": "45.5532",
     "lng": "18.6909",
     "country": "Croatia",
@@ -24,30 +36,6 @@
     "fullname": "Denmark - Frederiksberg"
   },
   {
-    "lat": "48.458594",
-    "lng": "35.040772",
-    "country": "Ukraine",
-    "city": "Dnepr",
-    "address": "Troitska st. 21g",
-    "delegate": "Serhii Koksharov",
-    "fee": "0",
-    "info": "",
-    "timezone": "UTC+2",
-    "fullname": "Ukraine - Dnepr"
-  },
-  {
-    "lat": "42.050833",
-    "lng": "12.614444",
-    "country": "Italy",
-    "city": "Monterotondo",
-    "address": "Private address",
-    "delegate": "Gianluca Placenti",
-    "fee": "0",
-    "info": "",
-    "timezone": "UTC+1",
-    "fullname": "Italy - Monterotondo"
-  },
-  {
     "lat": "60.169191",
     "lng": "24.929106",
     "country": "Finland",
@@ -58,42 +46,6 @@
     "info": "",
     "timezone": "UTC+2",
     "fullname": "Finland - Helsinki"
-  },
-  {
-    "lat": "45.479632",
-    "lng": "9.226585",
-    "country": "Italy",
-    "city": "Milano",
-    "address": "Via Ampère 2, Milano",
-    "delegate": "Lorenzo Vigani Poli",
-    "fee": "5 EUR",
-    "info": "",
-    "timezone": "UTC+1",
-    "fullname": "Italy - Milano"
-  },
-  {
-    "lat": "44.4325",
-    "lng": "26.103889",
-    "country": "Romania",
-    "city": "Bucharest",
-    "address": "TBA",
-    "delegate": "Mihai Capatinescu",
-    "fee": "3 EUR",
-    "info": "",
-    "timezone": "UTC+2",
-    "fullname": "Romania - Bucharest"
-  },
-  {
-    "lat": "47.746111",
-    "lng": "26.666111",
-    "country": "Romania",
-    "city": "Botoşani",
-    "address": "TBA",
-    "delegate": "Bogdan Grigoruţă",
-    "fee": "1 EUR",
-    "info": "",
-    "timezone": "UTC+2",
-    "fullname": "Romania - Botoşani"
   },
   {
     "lat": "44.837778",
@@ -108,15 +60,63 @@
     "fullname": "France - Bordeaux"
   },
   {
-    "lat": "42.655523",
-    "lng": "23.354149",
-    "country": "Bulgaria",
-    "city": "Sofia",
-    "address": "Technical university of Sofia, Campus 3 (or 4), 1 Rosario Str.",
-    "delegate": "Borislav Marchovski",
+    "lat": "42.050833",
+    "lng": "12.614444",
+    "country": "Italy",
+    "city": "Monterotondo",
+    "address": "Private address",
+    "delegate": "Gianluca Placenti",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Italy - Monterotondo"
+  },
+  {
+    "lat": "45.479632",
+    "lng": "9.226585",
+    "country": "Italy",
+    "city": "Milano",
+    "address": "Via Ampère 2, Milano",
+    "delegate": "Lorenzo Vigani Poli",
+    "fee": "5 EUR",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Italy - Milano"
+  },
+  {
+    "lat": "48.458594",
+    "lng": "35.040772",
+    "country": "Ukraine",
+    "city": "Dnepr",
+    "address": "Troitska st. 21g",
+    "delegate": "Serhii Koksharov",
     "fee": "0",
     "info": "",
     "timezone": "UTC+2",
-    "fullname": "Bulgaria - Sofia"
+    "fullname": "Ukraine - Dnepr"
+  },
+  {
+    "lat": "47.746111",
+    "lng": "26.666111",
+    "country": "Romania",
+    "city": "Botoşani",
+    "address": "TBA",
+    "delegate": "Bogdan Grigoruţă",
+    "fee": "1 EUR",
+    "info": "",
+    "timezone": "UTC+2",
+    "fullname": "Romania - Botoşani"
+  },
+  {
+    "lat": "44.4325",
+    "lng": "26.103889",
+    "country": "Romania",
+    "city": "Bucharest",
+    "address": "TBA",
+    "delegate": "Mihai Capatinescu",
+    "fee": "3 EUR",
+    "info": "",
+    "timezone": "UTC+2",
+    "fullname": "Romania - Bucharest"
   }
 ]
