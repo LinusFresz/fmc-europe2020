@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
+import { List } from 'semantic-ui-react'
+
 const AboutWrapper = styled.div`
   padding: 2em 1em;
 
@@ -18,10 +20,10 @@ export default class About extends React.Component {
         <h2>About</h2>
         <div>
           <div>
-            FMC Europe 2019 is a multi-location Fewest Moves competition. It
-            will take place on 23rd March 2019.
+            FMC Europe 2020 is a multi-location Fewest Moves competition. It
+            will take place on 22nd March 2020.
           </div>
-          <div>
+          <div className="paragraph">
             <h4 id="RegisterSection">How to register</h4>
             <ol>
               <li>Identify the location where you want to compete.</li>

@@ -13,7 +13,7 @@ const QuestionWrapper = styled.div`
   max-width: 90%;
 `
 const Question = styled.div`
-  font-weight: 500 !important;
+  font-weight: 700 !important;
 `
 const Answer = styled.div``
 

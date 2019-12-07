@@ -6,11 +6,11 @@ const ICON = `M20.2,15.7L20.2,15.7c1.1-1.6,1.8-3.6,1.8-5.7c0-5.6-4.5-10-10-10S2,
 
 const pinStyle = {
     cursor: 'pointer',
-    fill: '#161b40',
+    fill: '#41b853',
     stroke: 'none'
 };
 
-export default class CityPin extends PureComponent {
+export default class LocationPin extends PureComponent {
     render() {
         const { size = 20, onClick } = this.props;
 

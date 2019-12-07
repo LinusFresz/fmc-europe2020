@@ -8,7 +8,6 @@ import About from '../components/About'
 import Welcome from '../components/Welcome'
 import Schedule from '../components/Schedule'
 import News from '../components/News'
-import Footer from '../components/Footer'
 
 const IndexPage = ({ data }) => (
   <Layout>

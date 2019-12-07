@@ -16,3 +16,7 @@ exports.onCreateWebpackConfig = ({ stage, actions }) => {
     },
   });
 };
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
