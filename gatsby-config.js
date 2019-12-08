@@ -25,11 +25,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'gatsby-starter-default',
-        short_name: 'fmc-europe2019',
+        name: 'fmc-europe2020',
+        short_name: 'fmc-europe2020',
         start_url: '/',
-        background_color: '#1995AD',
-        theme_color: '#1995AD',
+        background_color: '#161b40',
+        theme_color: '161b40',
         display: 'minimal-ui',
         icon: 'src/images/cube.png', // This path is relative to the root of the site.
       },
