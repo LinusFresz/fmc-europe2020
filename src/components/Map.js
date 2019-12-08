@@ -98,7 +98,7 @@ class OverviewMap extends Component {
 
   render() {
     const { mounted, markers, viewport } = this.state
-    const mapBoxKey = process.env.MAPBOX_ACCESS_TOKEN
+    const mapBoxKey = process.env.GATSBY_MAPBOX_ACCESS_TOKEN
 
     return (
       // Important! Always set the container height explicitly
