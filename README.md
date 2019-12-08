@@ -9,7 +9,8 @@
 1.  Clone the repository
 2.  `cd fmc-europe2020`
 3.  `npm install`
-4.  `gatsby develop`
+4.  Add a mapbox API key to the .env files
+5.  Run `gatsby develop`
 
 ## Locations and other data
 
