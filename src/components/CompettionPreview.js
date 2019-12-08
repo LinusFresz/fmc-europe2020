@@ -9,7 +9,7 @@ const PreviewWrapper = styled.div`
 
   padding: 10px;
 
-  height: 60vh;
+  height: 50vh;
   width: 50vw;
 
   .select {

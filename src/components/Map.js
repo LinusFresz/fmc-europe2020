@@ -12,6 +12,7 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 const MapWrapper = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
 
   // padding: 1rem 1rem 1rem 1rem;
 
@@ -32,20 +33,15 @@ const MapElement = styled.div`
 
 class OverviewMap extends Component {
   state = {
-    center: {
-      lat: 50.85045,
-      lng: 4.34878,
-    },
-    zoom: 3,
     loading: true,
     markers: this.props.markers,
     selectedLocation: {},
     hoveredLocation: {},
     located: false,
     viewport: {
-      longitude: 4.34878,
-      latitude: 50.85045,
-      zoom: 5,
+      longitude: 12.502778,
+      latitude: 49.967778,
+      zoom: 3,
     },
     mounted: false
   }
@@ -89,7 +85,7 @@ class OverviewMap extends Component {
         let nearestCompetitionKey = sortedLocations[0].key
 
         this.setState({
-          viewport: { latitude: latitude, longitude: longitude, zoom: 8 },
+          viewport: { latitude: latitude, longitude: longitude, zoom: 5 },
           selectedLocation: markers[nearestCompetitionKey].node,
         })
       })

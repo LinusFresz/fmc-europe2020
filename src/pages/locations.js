@@ -9,7 +9,7 @@ const Locations = ({ data }) => {
     const competitors = data.allCompetitorsJson.edges;
     let filtered = [];
     for (var i = 0; i < competitors.length; i++) {
-        if (competitors[i].node.comments == location) {
+        if (competitors[i].node.comments === location) {
             filtered.push(competitors[i]);
         }
     }

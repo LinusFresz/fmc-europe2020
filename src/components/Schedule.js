@@ -47,8 +47,6 @@ const TableWrapper = styled.div`
 
 export default class About extends React.Component {
   render() {
-    const aboutParagraphs = this.props.aboutParagraphs
-
     return (
       <ScheduleWrapper id="Schedule" className="section">
         <h2>Schedule</h2>

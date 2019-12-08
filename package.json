@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "fmc-europe-2020",
+  "description": "FMC Europe 2020",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Laura Ohrndorf <laura.ohrndorf@gmail.com>",
   "dependencies": {
     "@material-ui/icons": "^3.0.2",
     "@turf/nearest-point": "^6.0.1",
@@ -52,6 +52,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Laura-O/fmc-europe-2020"
   }
 }
