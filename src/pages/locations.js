@@ -20,7 +20,7 @@ const Locations = ({ data }) => {
     <Layout>
       <div id="CompetitionsSection">
         <h2 className="competitionSection">Competition Locations</h2>
-        <div>Locations can be added until February 21st. If there is no location near you yet, please contact your local Delegate. These are the currently announced competitions:</div>
+        <div>More locations may be added until the February 21st, 2020. If there is no location near you yet, make sure to regularly check our website for new locations! These are the currently announced competitions:</div>
         <div>
           <ul>
             {data.allLocationsJson.edges.map(location => (
