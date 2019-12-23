@@ -1,20 +1,17 @@
 import React, { Component } from 'react'
-import GoogleMapReact from 'google-map-react'
-import ReactMapGL, { Marker, Popup } from 'react-map-gl';
+import ReactMapGL, { Marker, Popup } from 'react-map-gl'
 import styled from 'styled-components'
 import geolib from 'geolib'
 
-import LocationPin from './LocationPin';
+import LocationPin from './LocationPin'
 
 import CompetitionPreview from './CompettionPreview'
-import 'mapbox-gl/dist/mapbox-gl.css';
+import 'mapbox-gl/dist/mapbox-gl.css'
 
 const MapWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
-  // padding: 1rem 1rem 1rem 1rem;
 
   @media only screen and (max-width: 768px) {
     align-items: center;
@@ -43,7 +40,7 @@ class OverviewMap extends Component {
       latitude: 49.967778,
       zoom: 3,
     },
-    mounted: false
+    mounted: false,
   }
 
   componentDidMount() {
@@ -57,9 +54,6 @@ class OverviewMap extends Component {
   onClickLocation = marker => {
     this.setState({ selectedLocation: marker })
   }
-
-
-
 
   findClosestLocation() {
     if (navigator.geolocation) {
@@ -105,14 +99,20 @@ class OverviewMap extends Component {
               mapboxApiAccessToken={mapBoxKey}
               mapStyle="mapbox://styles/lauraohrndorf/ck3vnh3al43iy1cnzxjc6vgn6"
               {...viewport}
-              onViewportChange={(viewport) => {
-                if (mounted) { this.onViewportChange(viewport) }
+              onViewportChange={viewport => {
+                if (mounted) {
+                  this.onViewportChange(viewport)
+                }
               }}
               width="100%"
               height="400px"
             >
               {markers.map(({ node: marker }) => (
-                <Marker key={marker.id} latitude={parseFloat(marker.lat)} longitude={parseFloat(marker.lng)}>
+                <Marker
+                  key={marker.id}
+                  latitude={parseFloat(marker.lat)}
+                  longitude={parseFloat(marker.lng)}
+                >
                   <LocationPin onClick={() => this.onClickLocation(marker)} />
                 </Marker>
               ))}
@@ -123,7 +123,7 @@ class OverviewMap extends Component {
           {...this.state.selectedLocation}
           findClosestLocation={this.findClosestLocation.bind(this)}
         />
-      </MapWrapper >
+      </MapWrapper>
     )
   }
 }

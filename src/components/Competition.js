@@ -1,9 +1,7 @@
 import React from 'react'
-import { StaticQuery, graphql } from "gatsby"
 import styled from 'styled-components'
-import { Link } from "gatsby";
-import { Divider } from 'semantic-ui-react'
-
+import { Link } from 'gatsby'
+import { Icon } from 'semantic-ui-react'
 
 const CompetitionWrapper = styled.div`
   display: flex;
@@ -12,10 +10,6 @@ const CompetitionWrapper = styled.div`
   align-content: center;
 
   padding: 0.5em;
-
-  h3 {
-    padding-left: 20%;
-  }
 `
 
 const MainDivider = styled.hr`
@@ -35,17 +29,6 @@ const MainDivider = styled.hr`
   );
 `
 
-const MiniMap = styled.div`
-  width: 45vw;
-  height: 200px;
-  align-items: center;
-
-  @media only screen and (max-width: 768px) {
-    width: 100%;
-    align-items: center;
-    max-width: 500px;
-  }
-`
 const Infos = styled.div`
   display: flex;
   flex-direction: column;
@@ -54,7 +37,7 @@ const Infos = styled.div`
   padding-left: 1em;
 
   div {
-    margin: .5em 0;
+    margin: 0.5em 0;
   }
 
   span:first-child {
@@ -81,10 +64,10 @@ const ContentWrapper = styled.div`
   }
 `
 
-const CompetitorsWrapper = styled(ContentWrapper)`  
+const CompetitorsWrapper = styled(ContentWrapper)`
   flex-direction: column;
   align-items: flex-start;
-  
+
   width: 60vw;
 
   ul {
@@ -94,54 +77,81 @@ const CompetitorsWrapper = styled(ContentWrapper)`
   }
 `
 
-
 export default class Competition extends React.Component {
   render() {
-    const { id, city, country, delegate, email, info, address, fee, timezone, lat, lng } = this.props;
-    const mapsURL = "https://www.google.com/maps/search/?api=1&query=";
+    const {
+      id,
+      city,
+      country,
+      delegate,
+      email,
+      info,
+      address,
+      fee,
+      timezone,
+      lat,
+      lng,
+    } = this.props
+    const mapsURL = 'https://www.google.com/maps/search/?api=1&query='
 
-    let localCompetitors = this.props.localCompetitors;
-    localCompetitors.sort((a,b) => (a.node.name > b.node.name) ? 1 : ((b.node.name > a.node.name) ? -1 : 0));
+    let localCompetitors = this.props.localCompetitors
+    localCompetitors.sort((a, b) =>
+      a.node.name > b.node.name ? 1 : b.node.name > a.node.name ? -1 : 0
+    )
 
     return (
       <CompetitionWrapper id={id}>
         <div>
-          <a href={mapsURL + lat + "," + lng }><h3 id={city.replace(/[^A-Z0-9]/ig, "")}>{city + ', ' + country}</h3></a>
+          <a href={mapsURL + lat + ',' + lng}>
+            <h3 id={city.replace(/[^A-Z0-9]/gi, '')}>
+              <Icon inverted name="home" size="large" />
+              {city + ', ' + country}
+            </h3>
+          </a>
         </div>
         <ContentWrapper>
           <Infos>
             <div>
-                <span>Address: </span>
-                <span>
-                  <a href={mapsURL + lat + "," + lng }>
-                  {address}
-                  </a>
-                </span>
+              <span>
+                <strong>Address: </strong>
+              </span>
+              <span>
+                <a href={mapsURL + lat + ',' + lng}>{address}</a>
+              </span>
             </div>
             <div>
-                <span>Delegate: </span><span>{delegate}</span>
+              <span>
+                <strong>Delegate: </strong>
+              </span>
+              <span>{delegate}</span>
             </div>
             <div>
-                <span>Fee: </span><span>{fee}</span>
+              <span>
+                <strong>Fee: </strong>
+              </span>
+              <span>{fee}</span>
             </div>
             <div>
-                <span>Timezone: </span><span>{timezone}</span>
+              <span>
+                <strong>Timezone: </strong>
+              </span>
+              <span>{timezone}</span>
             </div>
-            <Link to="/#AboutSection"><button className="btn">How to Register</button></Link>
+            <Link to="/#AboutSection">
+              <button className="btn">How to Register</button>
+            </Link>
           </Infos>
         </ContentWrapper>
         <ContentWrapper>
           <CompetitorsWrapper>
             <h4>Registered Competitors</h4>
             <ul>
-              {
-                localCompetitors.map(competitor => (
-                  <li key={competitor.node.name}>{competitor.node.name}</li>
-                ))
-              }
-            {localCompetitors.length <= 0 &&
-              <div>No competitors registered.</div>
-            }
+              {localCompetitors.map(competitor => (
+                <li key={competitor.node.name}>{competitor.node.name}</li>
+              ))}
+              {localCompetitors.length <= 0 && (
+                <div>No competitors registered.</div>
+              )}
             </ul>
           </CompetitorsWrapper>
         </ContentWrapper>

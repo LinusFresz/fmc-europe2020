@@ -48,6 +48,18 @@
     "fullname": "Finland - Helsinki"
   },
   {
+    "lat": "47.472778",
+    "lng": "-0.555556",
+    "country": "France",
+    "city": "Angers",
+    "address": "Private address",
+    "delegate": "Pauline Bonnaudet",
+    "fee": "0",
+    "info": "max. 12 competitors",
+    "timezone": "UTC+1",
+    "fullname": "France - Angers"
+  },
+  {
     "lat": "44.837778",
     "lng": "-0.579444",
     "country": "France",
@@ -58,6 +70,18 @@
     "info": "",
     "timezone": "UTC+1",
     "fullname": "France - Bordeaux"
+  },
+  {
+    "lat": "45.758889",
+    "lng": "4.841389",
+    "country": "France",
+    "city": "Lyon",
+    "address": "Private address",
+    "delegate": "Antoine Piau",
+    "fee": "0",
+    "info": "max. 12 competitors",
+    "timezone": "UTC+1",
+    "fullname": "France - Lyon"
   },
   {
     "lat": "42.050833",
@@ -84,16 +108,16 @@
     "fullname": "Italy - Milano"
   },
   {
-    "lat": "48.458594",
-    "lng": "35.040772",
-    "country": "Ukraine",
-    "city": "Dnepr",
-    "address": "Troitska st. 21g",
-    "delegate": "Serhii Koksharov",
+    "lat": "52.3324104",
+    "lng": "5.5314603",
+    "country": "Netherlands",
+    "city": "Zeewolde",
+    "address": "Lemsterweg 21, 3891 CR Zeewolde",
+    "delegate": "Ron van Bruchem",
     "fee": "0",
-    "info": "",
-    "timezone": "UTC+2",
-    "fullname": "Ukraine - Dnepr"
+    "info": "max. 12 competitors",
+    "timezone": "UTC+1",
+    "fullname": "Netherlands - Zeewolde"
   },
   {
     "lat": "47.746111",
@@ -118,5 +142,29 @@
     "info": "",
     "timezone": "UTC+2",
     "fullname": "Romania - Bucharest"
+  },
+  {
+    "lat": "47.382149",
+    "lng": "8.531087",
+    "country": "Switzerland",
+    "city": "Zürich",
+    "address": "Ackerstrasse 11, 8005 Zürich. Details: Im Innenhof rechts / In the inner courtyard turn right",
+    "delegate": "Oleg Gritsenko & Tobias Peter",
+    "fee": "5 CHF",
+    "info": "max. 18 competitors",
+    "timezone": "UTC+1",
+    "fullname": "Switzerland - Zürich"
+  },
+  {
+    "lat": "48.458594",
+    "lng": "35.040772",
+    "country": "Ukraine",
+    "city": "Dnepr",
+    "address": "Troitska st. 21g",
+    "delegate": "Serhii Koksharov",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+2",
+    "fullname": "Ukraine - Dnepr"
   }
 ]
