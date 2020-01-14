@@ -36,6 +36,30 @@
     "fullname": "Denmark - Frederiksberg"
   },
   {
+    "lat": "48.2629984",
+    "lng": "11.4339022",
+    "country": "Germany",
+    "city": "Dachau",
+    "address": "TBA",
+    "delegate": "Linus Frész",
+    "fee": "5 EUR",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Germany - Dachau"
+  },
+  {
+    "lat": "51.5368948",
+    "lng": "7.2009147",
+    "country": "Germany",
+    "city": "Herne/Dortmund",
+    "address": "TBA",
+    "delegate": "Laura Ohrndorf & Sébastien Auroux",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Germany - Herne"
+  },
+  {
     "lat": "60.169191",
     "lng": "24.929106",
     "country": "Finland",
@@ -84,6 +108,18 @@
     "fullname": "France - Lyon"
   },
   {
+    "lat": "51.892680",
+    "lng": "-8.491947",
+    "country": "Ireland",
+    "city": "Cork",
+    "address": "Boole 6, University College Cork, College Road, Cork",
+    "delegate": "Mary Hennessy",
+    "fee": "2 EUR",
+    "info": "",
+    "timezone": "UTC",
+    "fullname": "Ireland - Cork"
+  },
+  {
     "lat": "42.050833",
     "lng": "12.614444",
     "country": "Italy",
@@ -119,6 +155,18 @@
     "timezone": "UTC+1",
     "fullname": "Netherlands - Zeewolde"
   },
+    {
+    "lat": "63.416369",
+    "lng": "10.406851",
+    "country": "Norway",
+    "city": "Trondheim",
+    "address": "Høgskoleringen 1, 7491 Trondheim, R10 Realfagbygget",
+    "delegate": "Ulrik Bredland",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Norway - Trondheim"
+  },
   {
     "lat": "47.746111",
     "lng": "26.666111",
@@ -132,16 +180,28 @@
     "fullname": "Romania - Botoşani"
   },
   {
-    "lat": "44.4325",
-    "lng": "26.103889",
+    "lat": "44.473465",
+    "lng": "26.065533",
     "country": "Romania",
     "city": "Bucharest",
-    "address": "TBA",
+    "address": "Universitatea Romano Americana, Bulevardul Expozitiei 1B",
     "delegate": "Mihai Capatinescu",
     "fee": "3 EUR",
     "info": "",
     "timezone": "UTC+2",
     "fullname": "Romania - Bucharest"
+  },
+  {
+    "lat": "50.581538",
+    "lng": "36.577439",
+    "country": "Russie",
+    "city": "Belgorod",
+    "address": "5 August St. 34, Chess Club",
+    "delegate": "Andrey Robota",
+    "fee": "150 RUB",
+    "info": "max. 15 competitors",
+    "timezone": "UTC+3",
+    "fullname": "Russia - Belgorod"
   },
   {
     "lat": "47.382149",
