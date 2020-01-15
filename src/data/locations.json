@@ -192,6 +192,18 @@
     "fullname": "Romania - Bucharest"
   },
   {
+    "lat": "59.9342802",
+    "lng": "30.3350986",
+    "country": "Russia",
+    "city": "Saint Petersburg",
+    "address": "TBA",
+    "delegate": "Ilya Tsiareshka",
+    "fee": "TBA",
+    "info": "",
+    "timezone": "UTC+3",
+    "fullname": "Russia - Saint Petersburg"
+  },
+  {
     "lat": "50.581538",
     "lng": "36.577439",
     "country": "Russia",
