@@ -36,16 +36,16 @@
     "fullname": "Denmark - Frederiksberg"
   },
   {
-    "lat": "48.2629984",
-    "lng": "11.4339022",
+    "lat": "48.241148",
+    "lng": "11.457615",
     "country": "Germany",
-    "city": "Dachau",
-    "address": "TBA",
+    "city": "Karlsfeld",
+    "address": "Grünlandstraße 20, 85757 Karlsfeld",
     "delegate": "Linus Frész",
-    "fee": "5 EUR",
+    "fee": "0",
     "info": "max. 10 competitors",
     "timezone": "UTC+1",
-    "fullname": "Germany - Dachau"
+    "fullname": "Germany - Dachau Karlsfeld"
   },
   {
     "lat": "51.5368948",
@@ -214,6 +214,18 @@
     "info": "max. 15 competitors",
     "timezone": "UTC+3",
     "fullname": "Russia - Belgorod"
+  },
+  {
+    "lat": "57.70887",
+    "lng": "11.97456",
+    "country": "Sweden",
+    "city": "Gothenburg",
+    "address": "TBA",
+    "delegate": "Anders Berggren",
+    "fee": "TBA",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Sweden - Gothenburg"
   },
   {
     "lat": "47.382149",
