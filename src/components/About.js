@@ -28,7 +28,7 @@ export default class About extends React.Component {
             <ol>
               <li>Identify the location where you want to compete.</li>
               <li>
-                Visit the competition page on the
+                Visit the competition page on the 
                 <a href="https://www.worldcubeassociation.org/competitions/FMCEurope2020/">
                   WCA Website.
                 </a>

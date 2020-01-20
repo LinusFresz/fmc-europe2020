@@ -168,11 +168,11 @@
     "fullname": "Norway - Trondheim"
   },
   {
-    "lat": "47.746111",
-    "lng": "26.666111",
+    "lat": "47.592708",
+    "lng": "26.594067",
     "country": "Romania",
     "city": "Botoşani",
-    "address": "TBA",
+    "address": "Școala Gimnazială Alexandru cel Bun, Icușeni-Vorona, Botoșani",
     "delegate": "Bogdan Grigoruţă",
     "fee": "1 EUR",
     "info": "",
@@ -248,6 +248,18 @@
     "delegate": "Serhii Koksharov",
     "fee": "0",
     "info": "",
+    "timezone": "UTC+2",
+    "fullname": "Ukraine - Dnepr"
+  },
+  {
+    "lat": "50.472160",
+    "lng": "30.499647",
+    "country": "Ukraine",
+    "city": "Kiyiv",
+    "address": "40-E Kyrylivska st.",
+    "delegate": "Roman Ostapenko",
+    "fee": "0",
+    "info": "max. 30 competitors",
     "timezone": "UTC+2",
     "fullname": "Ukraine - Dnepr"
   }
