@@ -48,6 +48,14 @@
         "average": 24.67
     },
     {
+        "name": "Nicolas Gertner",
+        "personId": "2013GERT01",
+        "country": "France",
+        "comments": "France - Lyon",
+        "single": 23,
+        "average": 24.67
+    },
+    {
         "name": "Laura Ohrndorf",
         "personId": "2009OHRN01",
         "country": "Germany",
@@ -160,12 +168,28 @@
         "average": 29.0
     },
     {
+        "name": "Cl\u00e9ment Cherblanc",
+        "personId": "2014CHER05",
+        "country": "France",
+        "comments": "France - Lyon",
+        "single": 23,
+        "average": 29.67
+    },
+    {
         "name": "Lorenzo Vigani Poli",
         "personId": "2007POLI01",
         "country": "Italy",
         "comments": "Italy - Milano",
         "single": 24,
         "average": 29.67
+    },
+    {
+        "name": "Anders Berggren",
+        "personId": "2011BERG02",
+        "country": "Sweden",
+        "comments": "Sweden - Gothenburg",
+        "single": 26,
+        "average": 30.0
     },
     {
         "name": "Hanns Hub",
@@ -189,6 +213,14 @@
         "country": "Russia",
         "comments": "Switzerland - Z\u00fcrich",
         "single": 26,
+        "average": 30.67
+    },
+    {
+        "name": "Pavel Galaktionov",
+        "personId": "2013GALA04",
+        "country": "Russia",
+        "comments": "Russia - Saint Petersburg",
+        "single": 27,
         "average": 30.67
     },
     {
@@ -440,6 +472,14 @@
         "average": 42.0
     },
     {
+        "name": "Joonas Silvennoinen",
+        "personId": "2016SILV07",
+        "country": "Finland",
+        "comments": "Finland - Helsinki",
+        "single": 35,
+        "average": 42.0
+    },
+    {
         "name": "Ole Nikolai Gjerset",
         "personId": "2011GJER02",
         "country": "Norway",
@@ -464,11 +504,11 @@
         "average": 43.0
     },
     {
-        "name": "Joonas Silvennoinen",
-        "personId": "2016SILV07",
-        "country": "Finland",
-        "comments": "Finland - Helsinki",
-        "single": 35,
+        "name": "Mihai C\u0103p\u0103\u0163inescu",
+        "personId": "2012CAPA01",
+        "country": "Romania",
+        "comments": "Romania - Bucharest",
+        "single": 38,
         "average": 43.33
     },
     {
@@ -488,6 +528,14 @@
         "average": 44.33
     },
     {
+        "name": "Lars Knittler",
+        "personId": "2017KNIT01",
+        "country": "Germany",
+        "comments": "Finland - Helsinki",
+        "single": 42,
+        "average": 44.67
+    },
+    {
         "name": "Alistair Robequin",
         "personId": "2019ROBE01",
         "country": "Switzerland",
@@ -496,11 +544,11 @@
         "average": 45.67
     },
     {
-        "name": "Lars Knittler",
-        "personId": "2017KNIT01",
-        "country": "Germany",
-        "comments": "Finland - Helsinki",
-        "single": 42,
+        "name": "Ciprian \u0218tefan Staicu",
+        "personId": "2012STAI01",
+        "country": "Romania",
+        "comments": "Romania - Bucharest",
+        "single": 41,
         "average": 48.0
     },
     {
@@ -552,6 +600,14 @@
         "average": 999
     },
     {
+        "name": "Oleksii Lukin",
+        "personId": "2012LUKI01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Dnepr",
+        "single": 31,
+        "average": 999
+    },
+    {
         "name": "Tristan Paulussen",
         "personId": "2009PAUL01",
         "country": "Netherlands",
@@ -597,6 +653,14 @@
         "country": "Denmark",
         "comments": "Denmark - Frederiksberg",
         "single": 48,
+        "average": 999
+    },
+    {
+        "name": "Alexander Kolev",
+        "personId": "2019KOLE06",
+        "country": "Bulgaria",
+        "comments": "Bulgaria - Sofia",
+        "single": 999,
         "average": 999
     },
     {
@@ -660,6 +724,14 @@
         "personId": "2019POLL04",
         "country": "Netherlands",
         "comments": "Netherlands - Zeewolde",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Slavomil Voloskov",
+        "personId": "2018VOLO05",
+        "country": "Russia",
+        "comments": "Russia - Saint Petersburg",
         "single": 999,
         "average": 999
     },

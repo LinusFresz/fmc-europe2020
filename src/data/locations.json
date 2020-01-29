@@ -4,10 +4,10 @@
     "lng": "23.354149",
     "country": "Bulgaria",
     "city": "Sofia",
-    "address": "Technical university of Sofia, Campus 3 (or 4), 1 Rosario Str.",
+    "address": "Technical University of Sofia, Campus 4, room 4244; 1 Rosario Str.",
     "delegate": "Borislav Marchovski",
     "fee": "0",
-    "info": "",
+    "info": "max. 40 competitors",
     "timezone": "UTC+2",
     "fullname": "Bulgaria - Sofia"
   },
@@ -202,6 +202,18 @@
     "info": "",
     "timezone": "UTC+3",
     "fullname": "Russia - Saint Petersburg"
+  },  
+  {
+    "lat": "55.777773",
+    "lng": "37.502992",
+    "country": "Russia",
+    "city": "Moscow",
+    "address": "3rd Khoroshevskaya street, bld. 2s1",
+    "delegate": "Alexander Katyukov & Nikolay Masson",
+    "fee": "150 RUB",
+    "info": "max. 100 competitors",
+    "timezone": "UTC+3",
+    "fullname": "Russia - Moscow"
   },
   {
     "lat": "50.581538",
@@ -216,14 +228,14 @@
     "fullname": "Russia - Belgorod"
   },
   {
-    "lat": "57.70887",
-    "lng": "11.97456",
+    "lat": "57.6889478",
+    "lng": "11.9173862",
     "country": "Sweden",
     "city": "Gothenburg",
-    "address": "TBA",
+    "address": "Slottsskogsgatan 24, 414 53 Göteborg",
     "delegate": "Anders Berggren",
-    "fee": "TBA",
-    "info": "",
+    "fee": "0",
+    "info": "max. 15 competitors",
     "timezone": "UTC+1",
     "fullname": "Sweden - Gothenburg"
   },
@@ -261,6 +273,6 @@
     "fee": "0",
     "info": "max. 30 competitors",
     "timezone": "UTC+2",
-    "fullname": "Ukraine - Dnepr"
+    "fullname": "Ukraine - Kiyiv"
   }
 ]
