@@ -48,11 +48,11 @@
     "fullname": "Germany - Dachau Karlsfeld"
   },
   {
-    "lat": "51.5368948",
-    "lng": "7.2009147",
+    "lat": "51.5442308",
+    "lng": "7.2105598",
     "country": "Germany",
-    "city": "Herne/Dortmund",
-    "address": "TBA",
+    "city": "Herne",
+    "address": "Pestalozzi-Gymnasium, Harpener Weg 6, 44629 Herne",
     "delegate": "Laura Ohrndorf & Sébastien Auroux",
     "fee": "0",
     "info": "max. 15 competitors",
@@ -208,9 +208,9 @@
     "lng": "37.502992",
     "country": "Russia",
     "city": "Moscow",
-    "address": "3rd Khoroshevskaya street, bld. 2s1",
+    "address": "3rd Khoroshevskaya street, bld. 2s1, room 216",
     "delegate": "Alexander Katyukov & Nikolay Masson",
-    "fee": "150 RUB",
+    "fee": "200 RUB",
     "info": "max. 100 competitors",
     "timezone": "UTC+3",
     "fullname": "Russia - Moscow"
@@ -226,6 +226,18 @@
     "info": "max. 15 competitors",
     "timezone": "UTC+3",
     "fullname": "Russia - Belgorod"
+  },
+  {
+    "lat": "46.541528",
+    "lng": "15.6334887",
+    "country": "Slovenia",
+    "city": "Maribor",
+    "address": "Kardeljeva 73, 2000 Maribor",
+    "delegate": "Jernej Omulec",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Slovenia - Maribor"
   },
   {
     "lat": "57.6889478",

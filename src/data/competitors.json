@@ -19,7 +19,7 @@
         "name": "S\u00e9bastien Auroux",
         "personId": "2008AURO01",
         "country": "Germany",
-        "comments": "Germany - Herne/Dortmund",
+        "comments": "Germany - Herne",
         "single": 21,
         "average": 24.0
     },
@@ -59,7 +59,7 @@
         "name": "Laura Ohrndorf",
         "personId": "2009OHRN01",
         "country": "Germany",
-        "comments": "Germany - Herne/Dortmund",
+        "comments": "Germany - Herne",
         "single": 21,
         "average": 25.67
     },
@@ -227,7 +227,7 @@
         "name": "Joel Cetra",
         "personId": "2016CETR01",
         "country": "Germany",
-        "comments": "Germany - Herne/Dortmund",
+        "comments": "Germany - Herne",
         "single": 26,
         "average": 31.0
     },
@@ -246,6 +246,22 @@
         "comments": "Denmark - Frederiksberg",
         "single": 29,
         "average": 31.33
+    },
+    {
+        "name": "Ilya Nazarov",
+        "personId": "2015NAZA02",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 25,
+        "average": 31.67
+    },
+    {
+        "name": "Maxim Ilin",
+        "personId": "2017ILIN01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 27,
+        "average": 31.67
     },
     {
         "name": "Daniel Anker Hermansen",
@@ -536,6 +552,14 @@
         "average": 44.67
     },
     {
+        "name": "Danila Ryabinin",
+        "personId": "2017RYAB02",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 32,
+        "average": 45.0
+    },
+    {
         "name": "Alistair Robequin",
         "personId": "2019ROBE01",
         "country": "Switzerland",
@@ -640,6 +664,14 @@
         "average": 999
     },
     {
+        "name": "Lev Maslov",
+        "personId": "2017MASL06",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 43,
+        "average": 999
+    },
+    {
         "name": "Leonid Palchenko",
         "personId": "2016PALC02",
         "country": "Ukraine",
@@ -720,6 +752,14 @@
         "average": 999
     },
     {
+        "name": "Maria Beausang",
+        "personId": "2016BEAU03",
+        "country": "Ireland",
+        "comments": "Ireland - Cork",
+        "single": 999,
+        "average": 999
+    },
+    {
         "name": "Ruud Poll\u00e9",
         "personId": "2019POLL04",
         "country": "Netherlands",
@@ -732,6 +772,14 @@
         "personId": "2018VOLO05",
         "country": "Russia",
         "comments": "Russia - Saint Petersburg",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Stoil Kalev",
+        "personId": "2013KALE01",
+        "country": "Bulgaria",
+        "comments": "Bulgaria - Sofia",
         "single": 999,
         "average": 999
     },
