@@ -155,7 +155,19 @@
     "timezone": "UTC+1",
     "fullname": "Netherlands - Zeewolde"
   },
-    {
+  {
+    "lat": "42.0020912",
+    "lng": "21.4588053",
+    "country": "North Macedonia",
+    "city": "Skopje",
+    "address": "Hans Em Faculty of Forest Sciences, Landscape Architecture and Environmental Engineering",
+    "delegate": "Aleksandar Arsovski",
+    "fee": "0",
+    "info": "max. 20 competitors",
+    "timezone": "UTC+1",
+    "fullname": "North Macedonia - Skopje"
+  },
+  {
     "lat": "63.416369",
     "lng": "10.406851",
     "country": "Norway",
@@ -286,5 +298,17 @@
     "info": "max. 30 competitors",
     "timezone": "UTC+2",
     "fullname": "Ukraine - Kiyiv"
+  },
+  {
+    "lat": "52.565357",
+    "lng": "-0.240239",
+    "country": "United Kingdom",
+    "city": "Peterborough",
+    "address": "Weston Homes Stadium, London Road, Peterborough,  PE2 8AL",
+    "delegate": "Sam Spendla",
+    "fee": "0",
+    "info": "max. 20 competitors",
+    "timezone": "UTC",
+    "fullname": "United Kingdom"
   }
 ]

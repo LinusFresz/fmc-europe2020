@@ -96,6 +96,14 @@
         "average": 28.0
     },
     {
+        "name": "Sergey Lahno",
+        "personId": "2015LAHN01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 23,
+        "average": 28.33
+    },
+    {
         "name": "Alexandros Fokianos",
         "personId": "2017FOKI01",
         "country": "Italy",
@@ -200,6 +208,14 @@
         "average": 30.33
     },
     {
+        "name": "William Gan Wei Ren",
+        "personId": "2014RENW01",
+        "country": "Malaysia",
+        "comments": "Denmark - Frederiksberg",
+        "single": 24,
+        "average": 30.33
+    },
+    {
         "name": "Antoine Piau",
         "personId": "2008PIAU01",
         "country": "France",
@@ -221,6 +237,14 @@
         "country": "Russia",
         "comments": "Russia - Saint Petersburg",
         "single": 27,
+        "average": 30.67
+    },
+    {
+        "name": "Du\u0161an Zakel\u0161ek",
+        "personId": "2012ZAKE02",
+        "country": "Slovenia",
+        "comments": "Slovenia - Maribor",
+        "single": 28,
         "average": 30.67
     },
     {
@@ -262,6 +286,14 @@
         "comments": "Russia - Moscow",
         "single": 27,
         "average": 31.67
+    },
+    {
+        "name": "Fyodor Ivanov",
+        "personId": "2012IVAN03",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 28,
+        "average": 32.0
     },
     {
         "name": "Daniel Anker Hermansen",
@@ -326,6 +358,14 @@
         "comments": "Italy - Milano",
         "single": 30,
         "average": 33.67
+    },
+    {
+        "name": "Konstantin Solovev",
+        "personId": "2015SOLO01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 30,
+        "average": 34.33
     },
     {
         "name": "Tao Yu",
@@ -422,6 +462,14 @@
         "comments": "Ukraine - Kiyiv",
         "single": 33,
         "average": 37.67
+    },
+    {
+        "name": "Fedor Abaev",
+        "personId": "2016ABAE01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 27,
+        "average": 38.0
     },
     {
         "name": "Laurent Reynaud",
@@ -584,6 +632,14 @@
         "average": 49.0
     },
     {
+        "name": "Anatoly Turenko",
+        "personId": "2018TURE01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 42,
+        "average": 49.33
+    },
+    {
         "name": "Francesco Iezzi",
         "personId": "2016IEZZ01",
         "country": "Italy",
@@ -632,11 +688,27 @@
         "average": 999
     },
     {
+        "name": "Stanislav Shleev",
+        "personId": "2013SHLE01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 32,
+        "average": 999
+    },
+    {
         "name": "Tristan Paulussen",
         "personId": "2009PAUL01",
         "country": "Netherlands",
         "comments": "Netherlands - Zeewolde",
         "single": 34,
+        "average": 999
+    },
+    {
+        "name": "Ivan Polukarov",
+        "personId": "2017POLU02",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 38,
         "average": 999
     },
     {
@@ -680,6 +752,14 @@
         "average": 999
     },
     {
+        "name": "Elizaveta Selezneva",
+        "personId": "2016SELE01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 47,
+        "average": 999
+    },
+    {
         "name": "Malte Oliver B\u00f8gh Kj\u00f8ller",
         "personId": "2018KJOL01",
         "country": "Denmark",
@@ -720,6 +800,14 @@
         "average": 999
     },
     {
+        "name": "Ilya Zelkin",
+        "personId": "2019ZELK01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 999,
+        "average": 999
+    },
+    {
         "name": "Ivan Kalinin",
         "personId": "2019KALI10",
         "country": "Ukraine",
@@ -756,6 +844,14 @@
         "personId": "2016BEAU03",
         "country": "Ireland",
         "comments": "Ireland - Cork",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Matvey Merzlikin",
+        "personId": "2019MERZ01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
         "single": 999,
         "average": 999
     },
@@ -812,6 +908,14 @@
         "personId": "",
         "country": "Romania",
         "comments": "Romania - Bucharest",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Vladislav Sergunov",
+        "personId": "2019SERG03",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
         "single": 999,
         "average": 999
     }
