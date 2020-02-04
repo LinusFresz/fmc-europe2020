@@ -252,6 +252,18 @@
     "fullname": "Russia - Belgorod"
   },
   {
+    "lat": "55.12357",
+    "lng": "61.433764",
+    "country": "Russia",
+    "city": "Chelyabinsk",
+    "address": "Gagarina Street 50, Mamin-Sibiryak's 22th library",
+    "delegate": "Vasily Stasyev",
+    "fee": "200 RUB",
+    "info": "",
+    "timezone": "UTC+5",
+    "fullname": "Russia - Chelyabinsk"
+  },
+  {
     "lat": "46.541528",
     "lng": "15.6334887",
     "country": "Slovenia",
