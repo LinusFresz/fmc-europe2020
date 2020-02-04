@@ -96,6 +96,14 @@
         "average": 28.0
     },
     {
+        "name": "Jakob Gunnarsson",
+        "personId": "2015GUNN01",
+        "country": "Sweden",
+        "comments": "Sweden - Gothenburg",
+        "single": 23,
+        "average": 28.0
+    },
+    {
         "name": "Sergey Lahno",
         "personId": "2015LAHN01",
         "country": "Russia",
@@ -174,6 +182,14 @@
         "comments": "Romania - Boto\u015fani",
         "single": 28,
         "average": 29.0
+    },
+    {
+        "name": "Alexey Zharikov",
+        "personId": "2015ZHAR01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 23,
+        "average": 29.33
     },
     {
         "name": "Cl\u00e9ment Cherblanc",
@@ -302,6 +318,14 @@
         "comments": "Denmark - Frederiksberg",
         "single": 29,
         "average": 32.0
+    },
+    {
+        "name": "Matic Omulec",
+        "personId": "2010OMUL02",
+        "country": "Slovenia",
+        "comments": "Slovenia - Maribor",
+        "single": 26,
+        "average": 32.33
     },
     {
         "name": "Ulrik Bredland",
@@ -512,6 +536,14 @@
         "average": 39.67
     },
     {
+        "name": "Sergey Chirin",
+        "personId": "2015CHIR01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 33,
+        "average": 39.67
+    },
+    {
         "name": "Modest Podzolkin",
         "personId": "2017PODZ01",
         "country": "Ukraine",
@@ -656,6 +688,14 @@
         "average": 58.33
     },
     {
+        "name": "Kasper Pasanen",
+        "personId": "2018PASA02",
+        "country": "Finland",
+        "comments": "Finland - Helsinki",
+        "single": 44,
+        "average": 60.33
+    },
+    {
         "name": "Alaric Pouchain",
         "personId": "2019POUC01",
         "country": "France",
@@ -701,6 +741,22 @@
         "country": "Netherlands",
         "comments": "Netherlands - Zeewolde",
         "single": 34,
+        "average": 999
+    },
+    {
+        "name": "Giovanni Centili",
+        "personId": "2018CENT02",
+        "country": "Italy",
+        "comments": "Italy - Monterotondo",
+        "single": 36,
+        "average": 999
+    },
+    {
+        "name": "Aleksandar Arsovski",
+        "personId": "2018ARSO01",
+        "country": "Macedonia",
+        "comments": "North Macedonia - Skopje",
+        "single": 38,
         "average": 999
     },
     {
@@ -768,6 +824,14 @@
         "average": 999
     },
     {
+        "name": "Nikolai Gomelchuk",
+        "personId": "2019GOME13",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 49,
+        "average": 999
+    },
+    {
         "name": "Alexander Kolev",
         "personId": "2019KOLE06",
         "country": "Bulgaria",
@@ -784,10 +848,42 @@
         "average": 999
     },
     {
+        "name": "Biant Shkololli",
+        "personId": "2019SHKO01",
+        "country": "Kosovo",
+        "comments": "North Macedonia - Skopje",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Borjan Baboski",
+        "personId": "2018BABO01",
+        "country": "Macedonia",
+        "comments": "North Macedonia - Skopje",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Darijan Saravinov",
+        "personId": "2019SARA13",
+        "country": "Macedonia",
+        "comments": "North Macedonia - Skopje",
+        "single": 999,
+        "average": 999
+    },
+    {
         "name": "David Tanaskovi\u0107",
         "personId": "2019TANA01",
         "country": "Bosnia and Herzegovina",
         "comments": "Croatia - Osijek",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Diana Kostadinova",
+        "personId": "2019KOST12",
+        "country": "Macedonia",
+        "comments": "North Macedonia - Skopje",
         "single": 999,
         "average": 999
     },
@@ -848,10 +944,34 @@
         "average": 999
     },
     {
+        "name": "Mateo Minoski",
+        "personId": "2019MINO01",
+        "country": "Macedonia",
+        "comments": "North Macedonia - Skopje",
+        "single": 999,
+        "average": 999
+    },
+    {
         "name": "Matvey Merzlikin",
         "personId": "2019MERZ01",
         "country": "Russia",
         "comments": "Russia - Moscow",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Nikola Dimitrovski",
+        "personId": "2018DIMI11",
+        "country": "Macedonia",
+        "comments": "North Macedonia - Skopje",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Nikola Pulkovski",
+        "personId": "2018PULK01",
+        "country": "Macedonia",
+        "comments": "North Macedonia - Skopje",
         "single": 999,
         "average": 999
     },
@@ -884,6 +1004,14 @@
         "personId": "",
         "country": "Romania",
         "comments": "Romania - Bucharest",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Tihomir Dulev",
+        "personId": "2015DULE03",
+        "country": "Bulgaria",
+        "comments": "Bulgaria - Sofia",
         "single": 999,
         "average": 999
     },

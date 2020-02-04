@@ -144,6 +144,18 @@
     "fullname": "Italy - Milano"
   },
   {
+    "lat": "57.1519400",
+    "lng": "24.8647200",
+    "country": "Latvia",
+    "city": "Sigulda",
+    "address": "Private address",
+    "delegate": "Jānis Zirnis",
+    "fee": "2 EUR",
+    "info": "",
+    "timezone": "UTC+2",
+    "fullname": "Latvia - Sigulda"
+  },
+  {
     "lat": "52.3324104",
     "lng": "5.5314603",
     "country": "Netherlands",
