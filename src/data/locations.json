@@ -24,6 +24,18 @@
     "fullname": "Croatia - Osijek"
   },
   {
+    "lat": "50.477961",
+    "lng": "16.091484",
+    "country": "Czech Republic",
+    "city": "Červený Kostelec",
+    "address": "Komenského 540 54941 Červený Kostelec Česká republika",
+    "delegate": "Piotr Trząski",
+    "fee": "50 CZK",
+    "info": "max. 40 competitors",
+    "timezone": "UTC+1",
+    "fullname": "Czech Republic - Červený Kostelec"
+  },
+  {
     "lat": "55.682527",
     "lng": "12.554219",
     "country": "Denmark",

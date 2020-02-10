@@ -304,6 +304,14 @@
         "average": 31.33
     },
     {
+        "name": "Samuel Simko",
+        "personId": "2016SIMK01",
+        "country": "Slovakia",
+        "comments": "France - Lyon",
+        "single": 28,
+        "average": 31.33
+    },
+    {
         "name": "Dieter Amberger",
         "personId": "2016AMBE02",
         "country": "Austria",
@@ -365,6 +373,14 @@
         "country": "Norway",
         "comments": "Norway - Trondheim",
         "single": 27,
+        "average": 32.67
+    },
+    {
+        "name": "Hippolyte Moreau",
+        "personId": "2008MORE02",
+        "country": "France",
+        "comments": "France - Lyon",
+        "single": 28,
         "average": 32.67
     },
     {
@@ -445,6 +461,14 @@
         "country": "Ireland",
         "comments": "Ireland - Cork",
         "single": 23,
+        "average": 34.67
+    },
+    {
+        "name": "Timur Imanov",
+        "personId": "2018IMAN01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 26,
         "average": 34.67
     },
     {
@@ -576,6 +600,14 @@
         "average": 38.0
     },
     {
+        "name": "Nikolay Masson",
+        "personId": "2011MASS01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 26,
+        "average": 38.33
+    },
+    {
         "name": "Miika Rosvall",
         "personId": "2016ROSV01",
         "country": "Finland",
@@ -688,6 +720,14 @@
         "average": 43.0
     },
     {
+        "name": "J\u0101nis Zirnis",
+        "personId": "2013ZIRN01",
+        "country": "Latvia",
+        "comments": "Latvia - Sigulda",
+        "single": 29,
+        "average": 43.33
+    },
+    {
         "name": "Mihai C\u0103p\u0103\u0163inescu",
         "personId": "2012CAPA01",
         "country": "Romania",
@@ -776,6 +816,14 @@
         "average": 49.33
     },
     {
+        "name": "Gianluca Placenti",
+        "personId": "2012PLAC01",
+        "country": "Italy",
+        "comments": "Italy - Monterotondo",
+        "single": 41,
+        "average": 55.0
+    },
+    {
         "name": "Anton Pesykov",
         "personId": "2018PESY01",
         "country": "Ukraine",
@@ -790,6 +838,14 @@
         "comments": "Finland - Helsinki",
         "single": 44,
         "average": 60.33
+    },
+    {
+        "name": "Vasily Stasyev",
+        "personId": "2010STAS01",
+        "country": "Russia",
+        "comments": "Russia - Chelyabinsk",
+        "single": 50,
+        "average": 72.33
     },
     {
         "name": "Alaric Pouchain",
@@ -936,6 +992,14 @@
         "average": 999
     },
     {
+        "name": "Vyacheslav Kochergin",
+        "personId": "2018KOCH11",
+        "country": "Russia",
+        "comments": "Russia - Chelyabinsk",
+        "single": 45,
+        "average": 999
+    },
+    {
         "name": "Vladimir Kuznetsov",
         "personId": "2014KUZN02",
         "country": "Russia",
@@ -976,10 +1040,26 @@
         "average": 999
     },
     {
+        "name": "Dmitrii Dusheiko",
+        "personId": "2018DUSH02",
+        "country": "Russia",
+        "comments": "Russia - Chelyabinsk",
+        "single": 54,
+        "average": 999
+    },
+    {
         "name": "Alexander Kolev",
         "personId": "2019KOLE06",
         "country": "Bulgaria",
         "comments": "Bulgaria - Sofia",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Artem Kim",
+        "personId": "2018KIMA03",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
         "single": 999,
         "average": 999
     },
@@ -1044,6 +1124,14 @@
         "personId": "2018CHES02",
         "country": "Macedonia",
         "comments": "North Macedonia - Skopje",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Ian Holmes",
+        "personId": "2019HOLM03",
+        "country": "Netherlands",
+        "comments": "Netherlands - Zeewolde",
         "single": 999,
         "average": 999
     },
@@ -1202,6 +1290,14 @@
     {
         "name": "Valerio Raimondi Vallesi",
         "personId": "2019VALL10",
+        "country": "Italy",
+        "comments": "Italy - Monterotondo",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Vincenzo Suriano",
+        "personId": "",
         "country": "Italy",
         "comments": "Italy - Monterotondo",
         "single": 999,
