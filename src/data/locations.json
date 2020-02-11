@@ -228,13 +228,13 @@
     "fullname": "Romania - Bucharest"
   },
   {
-    "lat": "59.9342802",
-    "lng": "30.3350986",
+    "lat": "59.722517",
+    "lng": "30.409754",
     "country": "Russia",
     "city": "Saint Petersburg",
-    "address": "TBA",
+    "address": "Youth House Tsarskoye Selo",
     "delegate": "Ilya Tsiareshka",
-    "fee": "TBA",
+    "fee": "200 RUB",
     "info": "",
     "timezone": "UTC+3",
     "fullname": "Russia - Saint Petersburg"
@@ -298,6 +298,18 @@
     "info": "max. 15 competitors",
     "timezone": "UTC+1",
     "fullname": "Sweden - Gothenburg"
+  },
+  {
+    "lat": "57.765669",
+    "lng": "14.163364",
+    "country": "Sweden",
+    "city": "Jönköping",
+    "address": "Syrgasvägen 7, 553 02 Jönköping",
+    "delegate": "Viktor Zenk",
+    "fee": "0",
+    "info": "max. 15 competitors",
+    "timezone": "UTC+1",
+    "fullname": "Sweden - Jönköping"
   },
   {
     "lat": "47.382149",

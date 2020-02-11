@@ -1,5 +1,13 @@
 [
     {
+        "name": "Sebastiano Tronto",
+        "personId": "2011TRON02",
+        "country": "Italy",
+        "comments": "Italy - Milano",
+        "single": 16,
+        "average": 22.0
+    },
+    {
         "name": "Linus Fr\u00e9sz",
         "personId": "2011FRES01",
         "country": "Germany",
@@ -238,6 +246,14 @@
         "comments": "Sweden - Gothenburg",
         "single": 26,
         "average": 30.0
+    },
+    {
+        "name": "Gabriele Cappelletti",
+        "personId": "2012CAPP01",
+        "country": "Italy",
+        "comments": "Italy - Milano",
+        "single": 23,
+        "average": 30.33
     },
     {
         "name": "Hanns Hub",
@@ -512,6 +528,14 @@
         "average": 35.0
     },
     {
+        "name": "Alexander Bashutkin",
+        "personId": "2017BASH04",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 29,
+        "average": 35.33
+    },
+    {
         "name": "David Arzamastsev",
         "personId": "2016ARZA01",
         "country": "Russia",
@@ -533,6 +557,14 @@
         "country": "Italy",
         "comments": "Italy - Milano",
         "single": 31,
+        "average": 36.67
+    },
+    {
+        "name": "Grigoriy Barashkin",
+        "personId": "2017BARA05",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 35,
         "average": 36.67
     },
     {
@@ -605,6 +637,14 @@
         "country": "Russia",
         "comments": "Russia - Moscow",
         "single": 26,
+        "average": 38.33
+    },
+    {
+        "name": "Fredrik Trondhjem",
+        "personId": "2011TRON01",
+        "country": "Denmark",
+        "comments": "Denmark - Frederiksberg",
+        "single": 29,
         "average": 38.33
     },
     {
@@ -776,6 +816,14 @@
         "average": 45.67
     },
     {
+        "name": "Dmytro Rezhko",
+        "personId": "2017REZH01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kiyiv",
+        "single": 44,
+        "average": 46.67
+    },
+    {
         "name": "Ciprian \u0218tefan Staicu",
         "personId": "2012STAI01",
         "country": "Romania",
@@ -848,6 +896,14 @@
         "average": 72.33
     },
     {
+        "name": "Volodymyr Solonka",
+        "personId": "2017SOLO03",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kiyiv",
+        "single": 26,
+        "average": 999
+    },
+    {
         "name": "Alaric Pouchain",
         "personId": "2019POUC01",
         "country": "France",
@@ -901,6 +957,14 @@
         "country": "Russia",
         "comments": "Russia - Moscow",
         "single": 32,
+        "average": 999
+    },
+    {
+        "name": "Sergey Marin",
+        "personId": "2018MARI08",
+        "country": "Russia",
+        "comments": "Russia - Chelyabinsk",
+        "single": 34,
         "average": 999
     },
     {
