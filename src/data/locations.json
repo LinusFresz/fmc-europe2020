@@ -1,5 +1,17 @@
 [
   {
+    "lat": "53.917133",
+    "lng": "27.585469",
+    "country": "Belarus",
+    "city": "Minsk",
+    "address": "Chess School room, 1st floor, ul. Yakub Kolas 2",
+    "delegate": "Vladislav Pyatnitsa",
+    "fee": "5 BYN",
+    "info": "max. 40 competitors",
+    "timezone": "UTC+3",
+    "fullname": "Belarus - Minsk"
+  },
+  {
     "lat": "42.655523",
     "lng": "23.354149",
     "country": "Bulgaria",
@@ -132,16 +144,16 @@
     "fullname": "Ireland - Cork"
   },
   {
-    "lat": "42.050833",
-    "lng": "12.614444",
-    "country": "Italy",
-    "city": "Monterotondo",
-    "address": "Private address",
-    "delegate": "Gianluca Placenti",
-    "fee": "0",
-    "info": "",
-    "timezone": "UTC+1",
-    "fullname": "Italy - Monterotondo"
+    "lat": "31.792787",
+    "lng": "35.244419",
+    "country": "Israel",
+    "city": "Jerusalem",
+    "address": "Library studying room, The Hebrew University of Jerusalem.",
+    "delegate": "Rotem Ifrach",
+    "fee": "10 NIS",
+    "info": "max. 10 competitors",
+    "timezone": "UTC+2",
+    "fullname": "Israel - Jerusalem"
   },
   {
     "lat": "45.479632",
@@ -154,6 +166,18 @@
     "info": "",
     "timezone": "UTC+1",
     "fullname": "Italy - Milano"
+  },
+  {
+    "lat": "42.050833",
+    "lng": "12.614444",
+    "country": "Italy",
+    "city": "Monterotondo",
+    "address": "Private address",
+    "delegate": "Gianluca Placenti",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+1",
+    "fullname": "Italy - Monterotondo"
   },
   {
     "lat": "57.1519400",
@@ -204,6 +228,18 @@
     "fullname": "Norway - Trondheim"
   },
   {
+    "lat": "51.17335",
+    "lng": "22.287384",
+    "country": "Poland",
+    "city": "Bełżyce",
+    "address": "Szkoła Podstawowa nr 1 w Bełżycach, Biskupa Wilczyńskiego 62, 24-200 Bełżyce",
+    "delegate": "Przemysław Rogalski",
+    "fee": "0",
+    "info": "max. 50 competitors",
+    "timezone": "UTC+1",
+    "fullname": "Poland - Bełżyce"
+  },
+  {
     "lat": "47.592708",
     "lng": "26.594067",
     "country": "Romania",
@@ -238,18 +274,6 @@
     "info": "",
     "timezone": "UTC+3",
     "fullname": "Russia - Saint Petersburg"
-  },  
-  {
-    "lat": "55.777773",
-    "lng": "37.502992",
-    "country": "Russia",
-    "city": "Moscow",
-    "address": "3rd Khoroshevskaya street, bld. 2s1, room 216",
-    "delegate": "Alexander Katyukov & Nikolay Masson",
-    "fee": "200 RUB",
-    "info": "max. 100 competitors",
-    "timezone": "UTC+3",
-    "fullname": "Russia - Moscow"
   },
   {
     "lat": "50.581538",
@@ -274,6 +298,18 @@
     "info": "",
     "timezone": "UTC+5",
     "fullname": "Russia - Chelyabinsk"
+  },
+  {
+    "lat": "55.777773",
+    "lng": "37.502992",
+    "country": "Russia",
+    "city": "Moscow",
+    "address": "3rd Khoroshevskaya street, bld. 2s1, room 216",
+    "delegate": "Alexander Katyukov & Nikolay Masson",
+    "fee": "200 RUB",
+    "info": "max. 100 competitors",
+    "timezone": "UTC+3",
+    "fullname": "Russia - Moscow"
   },
   {
     "lat": "46.541528",
@@ -336,6 +372,18 @@
     "fullname": "Ukraine - Dnepr"
   },
   {
+    "lat": "49.9903578",
+    "lng": "36.2357745",
+    "country": "Ukraine",
+    "city": "Kharkiv",
+    "address": "Korolenka st. 18 (Korolenko State Scientific Library)",
+    "delegate": "Stepan Dzhurylo",
+    "fee": "0",
+    "info": "",
+    "timezone": "UTC+2",
+    "fullname": "Ukraine - Kharkiv"
+  },
+  {
     "lat": "50.472160",
     "lng": "30.499647",
     "country": "Ukraine",
@@ -346,6 +394,18 @@
     "info": "max. 30 competitors",
     "timezone": "UTC+2",
     "fullname": "Ukraine - Kiyiv"
+  },
+  {
+    "lat": "51.5207612",
+    "lng": "-0.1400551,15",
+    "country": "United Kingdom",
+    "city": "London",
+    "address": "Room 1.1.09, University of Westminster, Faculty of Science and Technology, 115 New Cavendish Street, London, W1W 6UW",
+    "delegate": "Daniel Sheppard",
+    "fee": "0",
+    "info": "max. 50 competitors",
+    "timezone": "UTC",
+    "fullname": "United Kingdom - London"
   },
   {
     "lat": "52.565357",
