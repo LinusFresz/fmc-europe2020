@@ -55,7 +55,7 @@
     "address": "Julius Thomsens Gade 5, 1974 Frederiksberg",
     "delegate": "Daniel Vædele Egdal & Henrik Buus Aagaard",
     "fee": "10 DKK",
-    "info": "",
+    "info": "max. 40 competitors",
     "timezone": "UTC+1",
     "fullname": "Denmark - Frederiksberg"
   },
@@ -168,14 +168,14 @@
     "fullname": "Italy - Milano"
   },
   {
-    "lat": "42.050833",
-    "lng": "12.614444",
+    "lat": "42.0650368",
+    "lng": "12.5937023",
     "country": "Italy",
     "city": "Monterotondo",
-    "address": "Private address",
+    "address": "Circolo bocciofilo Monterotondo scalo, Via Aldo Moro 1",
     "delegate": "Gianluca Placenti",
     "fee": "0",
-    "info": "",
+    "info": "max. 30 competitors",
     "timezone": "UTC+1",
     "fullname": "Italy - Monterotondo"
   },
@@ -401,7 +401,7 @@
     "country": "United Kingdom",
     "city": "London",
     "address": "Room 1.1.09, University of Westminster, Faculty of Science and Technology, 115 New Cavendish Street, London, W1W 6UW",
-    "delegate": "Daniel Sheppard",
+    "delegate": "Daniel Sheppard & James Molloy",
     "fee": "0",
     "info": "max. 50 competitors",
     "timezone": "UTC",
