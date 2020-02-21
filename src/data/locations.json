@@ -28,10 +28,10 @@
     "lng": "18.6909",
     "country": "Croatia",
     "city": "Osijek",
-    "address": "TBA",
+    "address": "Private address",
     "delegate": "Dominik Vidaković",
     "fee": "10 HRK",
-    "info": "",
+    "info": "max. 5 competitors",
     "timezone": "UTC+1",
     "fullname": "Croatia - Osijek"
   },
@@ -174,7 +174,7 @@
     "city": "Monterotondo",
     "address": "Circolo bocciofilo Monterotondo scalo, Via Aldo Moro 1",
     "delegate": "Gianluca Placenti",
-    "fee": "0",
+    "fee": "5 EUR",
     "info": "max. 30 competitors",
     "timezone": "UTC+1",
     "fullname": "Italy - Monterotondo"
@@ -238,6 +238,18 @@
     "info": "max. 50 competitors",
     "timezone": "UTC+1",
     "fullname": "Poland - Bełżyce"
+  },
+  {
+    "lat": "52.4446660",
+    "lng": "16.9527405",
+    "country": "Poland",
+    "city": "Poznań",
+    "address": "Hotel Quay, up. Karpia 22",
+    "delegate": "Grzegorz Łuczyna",
+    "fee": "5 PLN",
+    "info": "max. 25 competitors",
+    "timezone": "UTC+1",
+    "fullname": "Poland - Poznań"
   },
   {
     "lat": "47.592708",
