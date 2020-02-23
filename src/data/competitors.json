@@ -48,6 +48,14 @@
         "average": 24.0
     },
     {
+        "name": "Kacper Rafalski",
+        "personId": "2017RAFA02",
+        "country": "Poland",
+        "comments": "Poland - Pozna\u0144",
+        "single": 19,
+        "average": 24.67
+    },
+    {
         "name": "Martin V\u00e6dele Egdal",
         "personId": "2013EGDA02",
         "country": "Denmark",
@@ -168,6 +176,14 @@
         "average": 28.33
     },
     {
+        "name": "Roy Tamir",
+        "personId": "2014TAMI01",
+        "country": "Israel",
+        "comments": "Israel - Jerusalem",
+        "single": 26,
+        "average": 28.33
+    },
+    {
         "name": "Timo Norrkniivil\u00e4",
         "personId": "2017NORR01",
         "country": "Finland",
@@ -216,6 +232,14 @@
         "average": 28.67
     },
     {
+        "name": "Ben Baron",
+        "personId": "2016BARO04",
+        "country": "Israel",
+        "comments": "Israel - Jerusalem",
+        "single": 26,
+        "average": 28.67
+    },
+    {
         "name": "Ben Coppin",
         "personId": "2013COPP01",
         "country": "United Kingdom",
@@ -256,6 +280,14 @@
         "average": 29.33
     },
     {
+        "name": "Cyprian Kalbarczyk",
+        "personId": "2016KALB01",
+        "country": "Poland",
+        "comments": "Poland - Be\u0142\u017cyce",
+        "single": 26,
+        "average": 29.33
+    },
+    {
         "name": "Cl\u00e9ment Cherblanc",
         "personId": "2014CHER05",
         "country": "France",
@@ -272,11 +304,27 @@
         "average": 29.67
     },
     {
+        "name": "Jan Riedl",
+        "personId": "2019RIED01",
+        "country": "Czech Republic",
+        "comments": "Czech Republic - \u010cerven\u00fd Kostelec",
+        "single": 26,
+        "average": 29.67
+    },
+    {
         "name": "Jason Harley",
         "personId": "2016HARL01",
         "country": "United Kingdom",
-        "comments": "United Kingdom - Peterborough",
+        "comments": "United Kingdom - London",
         "single": 26,
+        "average": 29.67
+    },
+    {
+        "name": "Rados\u0142aw Opoka",
+        "personId": "2013OPOK01",
+        "country": "Poland",
+        "comments": "Poland - Pozna\u0144",
+        "single": 28,
         "average": 29.67
     },
     {
@@ -300,6 +348,14 @@
         "personId": "2012CAPP01",
         "country": "Italy",
         "comments": "Italy - Milano",
+        "single": 23,
+        "average": 30.33
+    },
+    {
+        "name": "Serhii Mormul",
+        "personId": "2012MORM01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kharkiv",
         "single": 23,
         "average": 30.33
     },
@@ -384,6 +440,22 @@
         "average": 30.67
     },
     {
+        "name": "Eli Jay",
+        "personId": "2014JAYE01",
+        "country": "United Kingdom",
+        "comments": "United Kingdom - London",
+        "single": 25,
+        "average": 31.0
+    },
+    {
+        "name": "Farid Mikhailov",
+        "personId": "2015MIKH04",
+        "country": "Kazakhstan",
+        "comments": "Russia - Saint Petersburg",
+        "single": 25,
+        "average": 31.0
+    },
+    {
         "name": "Joel Cetra",
         "personId": "2016CETR01",
         "country": "Germany",
@@ -440,14 +512,6 @@
         "average": 31.67
     },
     {
-        "name": "Jan Riedl",
-        "personId": "2019RIED01",
-        "country": "Czech Republic",
-        "comments": "Czech Republic - \u010cerven\u00fd Kostelec",
-        "single": 26,
-        "average": 32.0
-    },
-    {
         "name": "Fyodor Ivanov",
         "personId": "2012IVAN03",
         "country": "Russia",
@@ -496,12 +560,36 @@
         "average": 32.67
     },
     {
+        "name": "Ivan Torgashov",
+        "personId": "2011TORG01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 28,
+        "average": 32.67
+    },
+    {
+        "name": "Krzysztof Bober",
+        "personId": "2013BOBE01",
+        "country": "Poland",
+        "comments": "Poland - Pozna\u0144",
+        "single": 28,
+        "average": 33.0
+    },
+    {
         "name": "Callum Goodyear",
         "personId": "2012GOOD02",
         "country": "United Kingdom",
         "comments": "Denmark - Frederiksberg",
         "single": 29,
         "average": 33.0
+    },
+    {
+        "name": "Vladislav Grishchenkov",
+        "personId": "2014GRIS03",
+        "country": "Belarus",
+        "comments": "Belarus - Minsk",
+        "single": 27,
+        "average": 33.33
     },
     {
         "name": "Federico Borgogni",
@@ -526,6 +614,14 @@
         "comments": "France - Lyon",
         "single": 32,
         "average": 33.33
+    },
+    {
+        "name": "Kamil Przybylski",
+        "personId": "2016PRZY01",
+        "country": "Poland",
+        "comments": "Poland - Pozna\u0144",
+        "single": 25,
+        "average": 33.67
     },
     {
         "name": "Ron van Bruchem",
@@ -574,6 +670,14 @@
         "comments": "Russia - Moscow",
         "single": 31,
         "average": 34.0
+    },
+    {
+        "name": "Lev Golub",
+        "personId": "2014HOLU01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kharkiv",
+        "single": 23,
+        "average": 34.33
     },
     {
         "name": "Konstantin Solovev",
@@ -712,6 +816,14 @@
         "average": 37.0
     },
     {
+        "name": "Pavlo Bondar",
+        "personId": "2018BOND03",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kharkiv",
+        "single": 30,
+        "average": 37.0
+    },
+    {
         "name": "Kristi\u0101ns Pietkuns",
         "personId": "2017PIET01",
         "country": "Latvia",
@@ -726,6 +838,14 @@
         "comments": "United Kingdom - Peterborough",
         "single": 35,
         "average": 37.0
+    },
+    {
+        "name": "Mykola Trotsenko",
+        "personId": "2014TROT01",
+        "country": "Ukraine",
+        "comments": "Russia - Moscow",
+        "single": 28,
+        "average": 37.33
     },
     {
         "name": "Jaime Calzado Gomez",
@@ -748,6 +868,14 @@
         "personId": "2009OSTA01",
         "country": "Ukraine",
         "comments": "Ukraine - Kiyiv",
+        "single": 31,
+        "average": 37.67
+    },
+    {
+        "name": "Vadzim Smirnou",
+        "personId": "2017SMIR01",
+        "country": "Belarus",
+        "comments": "Belarus - Minsk",
         "single": 31,
         "average": 37.67
     },
@@ -812,8 +940,16 @@
         "personId": "2018HOVO01",
         "country": "Ukraine",
         "comments": "Ukraine - Kiyiv",
-        "single": 36,
+        "single": 35,
         "average": 38.67
+    },
+    {
+        "name": "Esra Mehmedova",
+        "personId": "2018MEHM02",
+        "country": "Bulgaria",
+        "comments": "Bulgaria - Sofia",
+        "single": 30,
+        "average": 39.0
     },
     {
         "name": "Sergey Churilov",
@@ -840,6 +976,14 @@
         "average": 39.0
     },
     {
+        "name": "Modest Podzolkin",
+        "personId": "2017PODZ01",
+        "country": "Ukraine",
+        "comments": "Denmark - Frederiksberg",
+        "single": 25,
+        "average": 39.67
+    },
+    {
         "name": "Pauline Cl\u00e9menceau",
         "personId": "2015CLEM03",
         "country": "France",
@@ -856,11 +1000,19 @@
         "average": 39.67
     },
     {
-        "name": "Modest Podzolkin",
-        "personId": "2017PODZ01",
+        "name": "Andrii Vasyliev",
+        "personId": "2018VASY01",
         "country": "Ukraine",
-        "comments": "Denmark - Frederiksberg",
-        "single": 25,
+        "comments": "Ukraine - Dnepr",
+        "single": 40,
+        "average": 40.0
+    },
+    {
+        "name": "Anton Suzin",
+        "personId": "2017SUZI02",
+        "country": "Belarus",
+        "comments": "Belarus - Minsk",
+        "single": 32,
         "average": 40.33
     },
     {
@@ -872,6 +1024,14 @@
         "average": 40.33
     },
     {
+        "name": "Yurii Riabov",
+        "personId": "2018RIAB01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kiyiv",
+        "single": 36,
+        "average": 40.33
+    },
+    {
         "name": "Jacob Chambers",
         "personId": "2017CHAM09",
         "country": "United Kingdom",
@@ -880,11 +1040,19 @@
         "average": 40.33
     },
     {
-        "name": "Yurii Riabov",
-        "personId": "2018RIAB01",
+        "name": "Illia Kozlov",
+        "personId": "2019KOZL05",
         "country": "Ukraine",
-        "comments": "Ukraine - Kiyiv",
-        "single": 36,
+        "comments": "Ukraine - Dnepr",
+        "single": 37,
+        "average": 41.33
+    },
+    {
+        "name": "Yauheni Herasimchyk",
+        "personId": "2018GERA07",
+        "country": "Belarus",
+        "comments": "Belarus - Minsk",
+        "single": 38,
         "average": 41.67
     },
     {
@@ -984,6 +1152,14 @@
         "average": 44.33
     },
     {
+        "name": "Danylo Harbar",
+        "personId": "2017HARB01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kharkiv",
+        "single": 35,
+        "average": 44.67
+    },
+    {
         "name": "Lars Knittler",
         "personId": "2017KNIT01",
         "country": "Germany",
@@ -1006,6 +1182,14 @@
         "comments": "Russia - Saint Petersburg",
         "single": 40,
         "average": 45.0
+    },
+    {
+        "name": "Marcus Siu",
+        "personId": "2016SIUM01",
+        "country": "United Kingdom",
+        "comments": "United Kingdom - London",
+        "single": 35,
+        "average": 45.33
     },
     {
         "name": "Carl Emil Exner",
@@ -1072,6 +1256,14 @@
         "average": 48.33
     },
     {
+        "name": "Andrii Moisol",
+        "personId": "2015MOIS01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kiyiv",
+        "single": 44,
+        "average": 49.0
+    },
+    {
         "name": "Mary Hennessy",
         "personId": "2015HENN02",
         "country": "Ireland",
@@ -1094,6 +1286,22 @@
         "comments": "Italy - Milano",
         "single": 42,
         "average": 49.33
+    },
+    {
+        "name": "Yuval Porat",
+        "personId": "2017PORA02",
+        "country": "Israel",
+        "comments": "Israel - Jerusalem",
+        "single": 50,
+        "average": 51.33
+    },
+    {
+        "name": "Wojciech Rogozi\u0144ski",
+        "personId": "2019ROGO04",
+        "country": "Poland",
+        "comments": "Poland - Pozna\u0144",
+        "single": 36,
+        "average": 51.67
     },
     {
         "name": "Gianluca Placenti",
@@ -1224,11 +1432,27 @@
         "average": 999
     },
     {
+        "name": "Thomas Stokes",
+        "personId": "2017STOK03",
+        "country": "United Kingdom",
+        "comments": "United Kingdom - London",
+        "single": 34,
+        "average": 999
+    },
+    {
         "name": "Tristan Paulussen",
         "personId": "2009PAUL01",
         "country": "Netherlands",
         "comments": "Netherlands - Zeewolde",
         "single": 34,
+        "average": 999
+    },
+    {
+        "name": "Luka Jankovic",
+        "personId": "2018JANK01",
+        "country": "Serbia",
+        "comments": "Croatia - Osijek",
+        "single": 35,
         "average": 999
     },
     {
@@ -1240,11 +1464,27 @@
         "average": 999
     },
     {
+        "name": "Dmitry Rodin",
+        "personId": "2018RODI01",
+        "country": "Russia",
+        "comments": "Russia - Moscow",
+        "single": 36,
+        "average": 999
+    },
+    {
         "name": "Giovanni Centili",
         "personId": "2018CENT02",
         "country": "Italy",
         "comments": "Italy - Monterotondo",
         "single": 36,
+        "average": 999
+    },
+    {
+        "name": "Ivan Akulich",
+        "personId": "2017AKUL02",
+        "country": "Belarus",
+        "comments": "Belarus - Minsk",
+        "single": 37,
         "average": 999
     },
     {
@@ -1269,6 +1509,14 @@
         "country": "Russia",
         "comments": "Russia - Moscow",
         "single": 38,
+        "average": 999
+    },
+    {
+        "name": "Nikola Pavlovski",
+        "personId": "2018PAVL02",
+        "country": "Bulgaria",
+        "comments": "Bulgaria - Sofia",
+        "single": 39,
         "average": 999
     },
     {
@@ -1360,11 +1608,11 @@
         "average": 999
     },
     {
-        "name": "Andrii Moisol",
-        "personId": "2015MOIS01",
+        "name": "Yehor Bulhakov",
+        "personId": "2017BULH01",
         "country": "Ukraine",
-        "comments": "Ukraine - Kiyiv",
-        "single": 50,
+        "comments": "Ukraine - Kharkiv",
+        "single": 52,
         "average": 999
     },
     {
@@ -1376,11 +1624,35 @@
         "average": 999
     },
     {
+        "name": "Ben Uren",
+        "personId": "2019UREN01",
+        "country": "New Zealand",
+        "comments": "United Kingdom - London",
+        "single": 55,
+        "average": 999
+    },
+    {
+        "name": "Bohdan Shapovalov",
+        "personId": "2017SHAP01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Dnepr",
+        "single": 55,
+        "average": 999
+    },
+    {
         "name": "Jordan Crippa",
         "personId": "2019CRIP01",
         "country": "Italy",
         "comments": "Italy - Milano",
         "single": 74,
+        "average": 999
+    },
+    {
+        "name": "Aleksandar Angelov",
+        "personId": "2012ANGE01",
+        "country": "Bulgaria",
+        "comments": "Bulgaria - Sofia",
+        "single": 999,
         "average": 999
     },
     {
@@ -1520,6 +1792,14 @@
         "average": 999
     },
     {
+        "name": "Ilia Vekhnovskiy",
+        "personId": "2019VEKH01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Dnepr",
+        "single": 999,
+        "average": 999
+    },
+    {
         "name": "Ilya Zelkin",
         "personId": "2019ZELK01",
         "country": "Russia",
@@ -1530,6 +1810,14 @@
     {
         "name": "Ivan Kalinin",
         "personId": "2019KALI10",
+        "country": "Ukraine",
+        "comments": "Ukraine - Dnepr",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Ivan Kibets",
+        "personId": "2018KIBE01",
         "country": "Ukraine",
         "comments": "Ukraine - Dnepr",
         "single": 999,
@@ -1580,6 +1868,14 @@
         "personId": "2018LOON01",
         "country": "Netherlands",
         "comments": "Netherlands - Zeewolde",
+        "single": 999,
+        "average": 999
+    },
+    {
+        "name": "Maksym Godzishevskyi",
+        "personId": "2019GODZ01",
+        "country": "Ukraine",
+        "comments": "Ukraine - Kiyiv",
         "single": 999,
         "average": 999
     },

@@ -69,7 +69,7 @@
     "fee": "0",
     "info": "max. 10 competitors",
     "timezone": "UTC+1",
-    "fullname": "Germany - Dachau Karlsfeld"
+    "fullname": "Germany - Karlsfeld"
   },
   {
     "lat": "51.5442308",
@@ -429,6 +429,6 @@
     "fee": "0",
     "info": "max. 20 competitors",
     "timezone": "UTC",
-    "fullname": "United Kingdom"
+    "fullname": "United Kingdom - Peterborough"
   }
 ]
