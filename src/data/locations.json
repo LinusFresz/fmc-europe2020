@@ -24,14 +24,14 @@
     "fullname": "Bulgaria - Sofia"
   },
   {
-    "lat": "45.5532",
-    "lng": "18.6909",
+    "lat": "45.556203",
+    "lng": "18.694063",
     "country": "Croatia",
     "city": "Osijek",
-    "address": "Private address",
+    "address": "Istarska 5, 31000, Osijek (3rd floor)",
     "delegate": "Dominik Vidaković",
     "fee": "10 HRK",
-    "info": "max. 5 competitors",
+    "info": "max. 20 competitors",
     "timezone": "UTC+1",
     "fullname": "Croatia - Osijek"
   },
