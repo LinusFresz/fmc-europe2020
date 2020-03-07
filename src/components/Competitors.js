@@ -1,5 +1,4 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
 import _ from 'lodash'
 
 import styled from 'styled-components'

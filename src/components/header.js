@@ -113,7 +113,6 @@ const NavItem = styled.li`
 
   a:hover {
     color: var(--green);
-    font-weight: 500;
   }
 
   a:after {
